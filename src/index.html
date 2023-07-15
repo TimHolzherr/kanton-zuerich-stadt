@@ -5,13 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kanton Zürich Stadt</title>
+    <style>
+      .logobar {
+        font-family: HelveticaNeueLTW01_55Roman, "Helvetica Neue", Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+        color: #737373;
+        -webkit-font-smoothing: antialiased;
+        hyphens: manual;
+        font-size: 1.0625rem;
+        background-color: #0f05a0;
+        padding-right: 30px;
+        display: flex;
+      }
+      .logobar-inner {
+        font-family: HelveticaNeueLTW01_55Roman, "Helvetica Neue", Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+        color: #737373;
+        -webkit-font-smoothing: antialiased;
+        hyphens: manual;
+        font-size: 1.0625rem;
+        --scrollbar-width: 17px;
+        -webkit-box-direction: normal;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1260px;
+      }
+      .logo {
+        font-family: HelveticaNeueLTW01_55Roman, "Helvetica Neue", Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+        color: #737373;
+        -webkit-font-smoothing: antialiased;
+        hyphens: manual;
+        font-size: 1.0625rem;
+        --scrollbar-width: 17px;
+        -webkit-box-direction: normal;
+        height: 100%;
+        display: inline-flex;
+        background-color: #fff;
+        padding-left: calc((100vw - 100%) / 2);
+        margin-left: calc((100vw - 100%) / -2);
+      }
+    </style>
   </head>
   <body>
     <h1>Kanton Zürich Stadt</h1>
     <section>Unabänigkeit Jetzt! :)</section>
-    <div class="mod_header__logobar" data-header="logobar">
-      <div class="mod_header__logobar-inner">
-        <div class="mod_header__logobar-logo">
+    <div class="logobar" data-header="logobar">
+      <div class="logobar-inner">
+        <div class="logo">
           <a
             href="/portal/de/index.html"
             class="mod_logo mod_logo--in-bar"
