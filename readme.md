@@ -7,4 +7,3 @@ https://kanton-zürich-stadt.ch/
 2. Domain in punicode: http://xn--kanton-zrich-stadt-t6b.ch/   
 3. [Hosting on Netlify](https://app.netlify.com/sites/elegant-pegasus-e89d3c/configuration/domain)
 4. [Reference for look and feel](https://www.stadt-zuerich.ch/portal/de/index.html)
-5. 
